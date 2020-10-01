@@ -1,0 +1,82 @@
+.background-footer {
+    background-color: $hero-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-flexbox {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .footer-maps {
+    display: block;
+    margin-right: 70px;
+  }
+  
+  .adress-maps {
+    margin-bottom: 20px;
+    display: block;
+  
+    color: $white-text-color;
+  
+    font-style: normal;
+  }
+  .logowhait {
+    color: $white-text-color;
+  }
+  .norm {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .info {
+    display: block;
+    margin-bottom: 9px;
+  }
+  .info-footer{
+    font-size: 14px;
+    line-height: 24px;
+    
+    margin-bottom: 9px;
+    margin-top: 0;
+  }
+  .contaks{
+    width: 231px;
+  }
+  .footer-icon {
+    display: block;
+    margin-right: 93px;
+  }
+  
+  .footer-icon-set {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-link-svg {
+    fill: $white-text-color;
+  }
+  .icon-svg-list:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .form-checkbox a {
+    margin-left: 3px;
+    text-decoration-line:underline;
+    color: $accent-color;
+  }
+  
+  .title-icon {
+    display: flex;
+    align-items: baseline;
+  
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: $white-text-color;
+  
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  

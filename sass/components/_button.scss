@@ -1,0 +1,54 @@
+.button-pad {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  
+    border: none;
+  }
+  .button-text {
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px 32px;
+  
+    background-color: $accent-color;
+    color: $white-text-color;
+  
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  
+    transition: $transition-argument;
+  }
+  
+  .button .item-btn {
+    margin-left: 8px;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: $accent-color;
+    color: $white-text-color;
+  }
+  .conteiner-box {
+    padding-bottom: 94px;
+  }
+  .btn {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+  
+    background-color: $button-partfolio-colot;
+    color: $primary-text-color;
+    transition: $transition-argument;
+  }

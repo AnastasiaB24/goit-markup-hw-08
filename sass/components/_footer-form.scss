@@ -1,0 +1,51 @@
+.form-footer{
+    display: flex;
+    
+  }
+  .mail-footer{
+    padding-left: 16px;
+    margin-right: 12px;
+    width: 358px;
+    
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: $hero-color;
+    
+  }
+  
+  .mail-footer ::placeholder {
+    color: rgba(255, 255, 255, 0.6);;
+  }
+  .footer-mail-text{
+    display: block;
+    margin-bottom: 20px;
+    color: $white-text-color;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    
+  }
+  .icon-telega {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  
+    fill: $white-text-color;
+  }
+  
+  .button-form{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-right: 28px;
+    padding-left: 29px;
+    
+    width: 200px;
+    height: 50px;
+  
+    background: #188CE8;
+    color: $white-text-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }

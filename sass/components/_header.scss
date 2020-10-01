@@ -1,0 +1,69 @@
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+  
+  
+  
+  & .item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  & .link {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  
+    position: relative;
+  
+    color: $primary-text-color;
+  
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    transition: $transition-argument;
+  }
+  
+  & .link:hover,
+  & .link:focus {
+    color: $accent-color;
+  }
+  
+  & .link-current {
+    color: $accent-color;
+  
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+
+  .link{
+    &::after {
+    content: "";
+  
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+  
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: $accent-color;
+    border-radius: 2px;
+    transition: $transition-argument;
+  }
+  
+  &:hover::after,
+  &:focus::after {
+    opacity: 1;
+  }
+}
+  
+  .link-current.link::after {
+    opacity: 1;
+  }

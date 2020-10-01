@@ -1,0 +1,7 @@
+.auth-nav {
+    display: flex;
+
+    & .item + .item {
+        margin-left: 50px;
+      }
+  }
