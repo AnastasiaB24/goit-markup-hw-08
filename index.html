@@ -16,14 +16,24 @@
 
   <body>
     <!-- Header -->
+    <div class="header-fixed">
     <header class="page-header">
       <div class="conteiner">
-        <nav class="flexbox">
+        <div class="header-container">
           <a href="./index.html" class="logo"
             ><span class="logoblue">Web</span>Studio</a
           >
+          <button class="menu-btn" data-menu-button>
+            <svg width="40" height="40" aria-label="переключатель меню">
+              <use class="menu-btn-close" href="./images/sprite.svg#icon-close-btn"></use>
+              <use class="menu-btn-burger" href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+          </button>
+          </div>
 
           <!-- Novigation-->
+          <div class="menu-wrapper" data-menu>
+          <nav class="flexbox">
           <ul class="site-nav">
             <li class="item">
               <a class="link link-current" href="./index.html"> Студия</a>
@@ -35,6 +45,7 @@
               <a class="link" href="">Контакты</a>
             </li>
           </ul>
+        </nav>
 
           <address class="addres">
             <ul class="auth-nav">
@@ -56,9 +67,10 @@
               </li>
             </ul>
           </address>
-        </nav>
+        </div>
       </div>
     </header>
+    </div>
 
     <!-- Главный Conteiner-->
 
@@ -589,8 +601,9 @@
   </div>
 </div>
 
-
+    
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/form.js"></script>
   </body>
 </html>

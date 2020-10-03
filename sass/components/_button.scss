@@ -5,17 +5,26 @@
     border: none;
   }
   .button-text {
-    align-items: center;
-    border-radius: 4px;
-    padding: 10px 32px;
+    width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+
   
     background-color: $accent-color;
     color: $white-text-color;
   
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
   }
 
   .button {
