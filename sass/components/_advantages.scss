@@ -43,10 +43,7 @@
 	.advantages {
 		padding: 60px 0;
 	}
-	.advantages-item-title {
-		text-align: center;
-	}
-
+	
 	.advantages-list {
 		display: flex;
 		flex-flow: row wrap;
@@ -63,9 +60,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-	.advantages-item-title {
-		text-align: center;
-	}
+	
 	.advantages-item {
 		width: calc((100% - 30px) / 4);
 	}
