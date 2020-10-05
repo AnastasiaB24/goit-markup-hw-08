@@ -197,7 +197,7 @@ address {
   }
   .menu-wrapper {
     position: absolute;
-    top: 73px;
+    top: 0px;
     right: 0;
     width: 100%;
     height: 393px;
@@ -1029,6 +1029,7 @@ address {
 }
 
 .portfolio-item {
+  width: 404px;
   border: 1px solid #eeeeee;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
