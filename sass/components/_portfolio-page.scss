@@ -6,12 +6,15 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.portfolio-item:first-child {
+  height: 404px;
+}
 
 .portfolio-item {
-  width: 404px;
+ 
   border: 1px solid #eeeeee;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  
   &:hover,
   &:focus {
     background: #ffffff;
