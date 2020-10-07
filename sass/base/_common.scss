@@ -1,0 +1,75 @@
+// * {
+//   outline: 2px solid tomato;
+// }
+
+body {
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+  font-family: roboto, sans-serif;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.section {
+  color: $primary-text-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include for-size(desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.section-title {
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  @include for-size(desktop) {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.66;
+  }
+}
+
+.page-header {
+  background-color: $primary-white-color;
+
+  &.border {
+    position: relative;
+  }
+
+  &.border::after {
+    position: absolute;
+    width: 100%;
+
+    content: "";
+    border: 1px solid #ececec;
+  }
+}
